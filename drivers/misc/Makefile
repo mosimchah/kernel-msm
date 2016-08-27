@@ -76,3 +76,5 @@ obj-$(CONFIG_SENSORS_STML0XX) += stml0xx/
 obj-$(CONFIG_DROPBOX) += dropbox.o
 obj-$(CONFIG_SEC_DRIVER) += sec/
 obj-$(CONFIG_UID_SYS_STATS) += uid_sys_stats.o
+obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
+
